@@ -30,6 +30,11 @@ nav ul li a{
     color: azure;
     text-decoration: none;
 }
+nav ul li a:hover{
+  border-bottom: 5px solid  rgb(14, 178, 219);
+  transition: 0.2s;
+  color: rgb(14, 178, 219);
+} 
 @media (max-width: 768px) {
     header{
         height: max-content;
@@ -50,7 +55,7 @@ main h1{
     color: aliceblue;
     text-align: center;
     font-size: 58px;
-    margin-top: 179px;
+    margin-top: 249px;
 }
 .section1 , .section2 {
    /* height: 677px; */
